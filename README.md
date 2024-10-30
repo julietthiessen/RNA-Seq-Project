@@ -1,2 +1,2 @@
 # RNA-Seq-Project
-See Master Notes file.
+See MasterNotes.md file.
