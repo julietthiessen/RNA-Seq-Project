@@ -1,5 +1,4 @@
-**#RNA-Seq-Project**
-
+# RNA-Seq-Project
 Goals of the Analysis:
 
 Experimental Design:
