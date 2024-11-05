@@ -7,6 +7,8 @@
 <p>- Used trimmmomatic to clean and trim the raw files</p>
 <p>- Re-ran FastQC to analyze the quality of the trimmed C. glabrata RNA-sequence files</p>
 
+*need to add fastqc file example reference*
+
 <h3>Data Files:</h3>
 
 <a href=/fastqc.SBATCH> FastQC Script</a>
