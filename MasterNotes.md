@@ -1,7 +1,8 @@
 # RNA-Seq-Project
-Goals of the Analysis:
-<a href=/fastqc.SBATCH> Click here for FastQC script</a>
+<h>Goals of the Analysis:<h/>
 
-Experimental Design:
+<h>Experimental Design:</h>
+<a href=/fastqc.SBATCH> FastQC Script</a>
+<a href=/trimmomatic.SBATCH> Trimmmomatic Script<a/>
 
-Data Files:
+<h>Data Files:</h>
