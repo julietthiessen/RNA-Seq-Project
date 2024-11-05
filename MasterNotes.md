@@ -1,5 +1,5 @@
 # RNA-Seq-Project
-<h1>Goals of the Analysis:</h1>
+<h3>Goals of the Analysis:</h3>
 
 <h3>Experimental Design:</h3>
 
@@ -7,4 +7,4 @@
 
 <a href=/trimmomatic.SBATCH> Trimmmomatic Script<a/>
 
-<h1>Data Files:</h1>
+<h3>Data Files:</h3>
