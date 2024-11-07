@@ -16,8 +16,8 @@
 <p> 6. Gene Ontology Enrichment Analysis</p>
 
  <h3>Data Files:</h3>
-<p><u><i>C. albicans</i> sequenced RNA .FQ files</b> were provided by the Rolfes Laboratory.</u></p>
-<p><u><i>C. albicans</i> reference genome and annotation files (.FNA, .GTF)</b> were obtained from the public NCBI database.</u></p>
+<p><b><i>C. albicans</i> sequenced RNA .FQ files were provided by the Rolfes Laboratory.</b></p>
+<p><b><i>C. albicans</i> reference genome and annotation files (.FNA, .GTF) were obtained from the public NCBI database.</b></p>
 <p>Link to database: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000182965.3/</p2>
 <p>Reference genome assembly: ASM18296v3</p>
 <p>NCBI RefSeq assembly: GCF_000182965.3</p>
