@@ -1,6 +1,6 @@
 # RNA-Seq-Project
 <h3>Goals of the Analysis:</h3>
-
+<p>The</p>
 <h3>Experimental Design:</h3>
 <p>- Analyzed raw C. glabrata RNA-sequence files in FastQC</p>
 <p>- Surveyed the results, developed trimming strategy</p>
