@@ -18,10 +18,10 @@
  <h3>Data Files:</h3>
 <p><b><i>C. albicans</i> sequenced RNA .FQ files were provided by the Rolfes Laboratory.</b></p>
 <p><b><i>C. albicans</i> reference genome and annotation files (.FNA, .GTF) were obtained from the public NCBI database.</b></p>
-<p>Link to database: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000182965.3/</p2>
+<p>Link to database: /https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000182965.3/</p2>
 <p>Reference genome assembly: ASM18296v3</p>
 <p>NCBI RefSeq assembly: GCF_000182965.3</p>
-<p>Link to downloadable files: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/182/965/GCF_000182965.3_ASM18296v3/</p>
+<p>Link to downloadable files: /https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/182/965/GCF_000182965.3_ASM18296v3/</p>
 <p>Full .FNA file name: GCF_000182965.3_ASM18296v3_genomic.fna.gz</p>
 <p>Full .GTF file name: GCF_000182965.3_ASM18296v3_genomic.gtf.gz</p>
  
