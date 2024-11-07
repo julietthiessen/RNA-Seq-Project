@@ -4,7 +4,7 @@
 <h3>Experimental Design / Methods:</h3>
 <h3>Data Files:</h3>
 <p><b><i>C. albicans</i> sequenced RNA .FQ files</b> were provided by the Rolfes Laboratory.</p>
-<p><b><i>C. albicans</i> reference genome files (.FNA, .GTF)</b> were obtained from the public <ahref=https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000182965.3/ >NCBI database.</a></p>
+<p><b><i>C. albicans</i> reference genome files (.FNA, .GTF)</b> were obtained from the public <ahref=/https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000182965.3/> NCBI database.</a></p>
 	Reference genome assembly: ASM18296v3
 	NCBI RefSeq assembly: GCF_000182965.3
 	Downloadable files: Link
