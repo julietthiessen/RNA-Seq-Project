@@ -23,7 +23,7 @@
 <p>A trimming strategy was developed according to the results of the FastQC analysis performed on the raw forward / reverse read files. After trimming was performed using Trimmomatic software on the Google Cloud HPC Console (bash), trimmed files were again analyzed using FastQC to verify improved quality of reads. The FastQC script used was identical to that provided above. The same Trimmomatic strategy was used on both the forward and the reverse reads. Link to Trimmomatic script used <a href=/trimmomatic.SBATCH> here<a/>.</p>
 <p> 3. Alignment of Reads (Bowtie2/2.5.3 & Samtools/1.20)</p>
 <p>A bowtie index file was created using the following bowtie2-build command using Bowtie2/2.5.3 software on the Google Cloud HPC Console (bash) and the reference genome for <i>C. albicans</i> obtained from the public NCBI database.</p>
-<p><b>Command:</b>bowtie2-build GCF_000182965.3_ASM18296v3_genomic.fna calb_ref_index</p>
+<p><b>Command: </b>$bowtie2-build GCF_000182965.3_ASM18296v3_genomic.fna calb_ref_index</p>
 <p>Bowtie2/2.5.3 was then used to align the trimmed RNA sequence forward / reverse reads to the reference genome. Link to Bowtie2/2.5.3 script <a href=/bowtie.SBATCH> here<a/>.</p>
 <p> 4. Counting of Reads Per Gene Model (HTseq)</p>
 <p> 5. Differential Expression Analysis (DEseq2)</p>
