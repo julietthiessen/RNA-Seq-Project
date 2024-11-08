@@ -27,7 +27,7 @@
 <p>A bowtie index file was created using the following command for Bowtie2/2.5.3 software on the Google Cloud HPC Console (bash) and the reference genome for <i>C. albicans</i> obtained from the public NCBI database.</p>
 <p><b>Command: </b>$bowtie2-build GCF_000182965.3_ASM18296v3_genomic.fna calb_ref_index</p>
 <p>Bowtie2/2.5.3 was then used to align the trimmed RNA sequence forward / reverse reads to the reference genome. Link to Bowtie2/2.5.3 script <a href=/bowtie.SBATCH> here<a/>. The resulting output .SAM file was converted to .BAM format, sorted, and indexed using Samtools/1.20 software on the Google Cloud HPC Console (bash) using the following string of commands, respectively.</p>
-<p><b>Commands:</b>$samtools view -S -b WTB2.sam > WTB2.bam; $samtools sort sample.bam –o sample.srt.bam; $samtools index sample.srt.bam<p/>
+<p><b>Commands: </b>$samtools view -S -b WTB2.sam > WTB2.bam; $samtools sort sample.bam –o sample.srt.bam; $samtools index sample.srt.bam<p/>
 
 <p> 4. Counting of Reads Per Gene Model (HTseq)</p>
 <p> 5. Differential Expression Analysis (DEseq2)</p>
@@ -35,10 +35,26 @@
  
 <h3>Results:</h3>
 <p> 1. Quality Analysis (FastQC)</p>
+<p>Total sequences of forward read: 20353936</p>
+<p>Total sequences of reverse read: 20353936</p>
+<p>Issues identified: Per base sequence content, minor adaptor contamination</p>
+
 <p> 2. Trimming & Quality Control (Trimmomatic)</p>
+<p>Total sequences of forward read: 19476343</p>
+<p>Total sequences of reverse read: 19476343</p>
+<p>Issues identified: N/A</p>
+
 <p> 3. Alignment of Reads (Bowtie2/2.5.3 & Samtools/1.20)</p>
+<p>Total reads: 19476343</p>
+<p>Number of read pairs detected: 19476343</p>
+<p>Reads which aligned concordantly exactly 1 time: 89.04%</p>
+<p>Reads which aligned concordantly > 1 time: 6.13%</p>
+<p>Overall alignment rate: 98.11%</p>
+
 <p> 4. Counting of Reads Per Gene Model (HTseq)</p>
+
 <p> 5. Differential Expression Analysis (DEseq2)</p>
+
 <p> 6. Gene Ontology Enrichment Analysis</p>
 
 <h3>Interpretation of Workflow:</h3>
