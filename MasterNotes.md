@@ -5,7 +5,7 @@
 
 <h3>Experimental Design:</h3>
 <p>We obtained forward and reverse read files for six next-generation sequenced <i>C. albicans</i> RNA samples (.FQ format) from the Rolfes Laboratory. Three of the forward / reverse pair biological replicate files were obtained from samples or populations grown in the presence of thiamine and three of the forward / reverse pair biological replicate files were obtained from samples grown in the absence of thiamine.</p>
-<p><u>File Names / Treatments:</u></p>
+<p><h4>File Names / Treatments:</h4></p>
 <p>WTA1_1.fq.gz, WTA1_2.fq.gz – C. albicans cultured in Thi+ environment; biological replicate A; forward and reverse reads</p>
 <p>WTB1_1.fq.gz, WTB1_2.fq.gz – C. albicans cultured in Thi+ environment; biological replicate B; forward and reverse reads</p>
 <p>WTC1_1.fq.gz, WTC1_2.fq.gz – C. albicans cultured in Thi+ environment; biological replicate C; forward and reverse reads</p>
