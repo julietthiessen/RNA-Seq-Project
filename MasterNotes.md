@@ -43,7 +43,9 @@
 <p>Link to full alignment results: https://docs.google.com/spreadsheets/d/1fa-FXVMlCXOZkbHSx_mMg0OXLMy9BeBJg8uWrEMpKGo/edit?gid=0#gid=0</p>
 
 <p> 4. Counting of Reads Per Gene Model (HTseq)</p>
+ 
 <p> 5. Differential Expression Analysis (DEseq2)</p>
+ 
 <p> 6. Gene Ontology Enrichment Analysis</p>
  
 <h3>Results:</h3>
