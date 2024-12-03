@@ -12,7 +12,7 @@
 <p>WTA2_1.fq.gz, WTA2_2.fq.gz – C. albicans cultured in Thi- environment; biological replicate A; forward and reverse reads</p>
 <p>WTB2_1.fq.gz, WTB2_2.fq.gz – C. albicans cultured in Thi- environment; biological replicate B; forward and reverse reads</p>
 <p>WTC2_1.fq.gz, WTC2_2.fq.gz – C. albicans cultured in Thi- environment; biological replicate C; forward and reverse reads</p>
-<p>The following analysis was performed on the forward / reverse pair files for the second biological replicate data obtained from a <i>C. albicans</i> population grown in the absence of thiamine (forward read: WTB2_1; reverse read: WTB2_2) We ran the raw .FQ files through FastQC in order to determine the quality of the reads and developed an optimal trimming strategy. After trimming and clearing the reads using Trimmomatic, we confirmed improved quality again with FastQC. We then created an index and aligned the reads using Bowtie2/2.5.3 and Samtools/1.20 software. [Cont. - UNFINISHED]</p>
+<p>The following analysis was performed on the forward / reverse pair files for the second biological replicate data obtained from a <i>C. albicans</i> population grown in the absence of thiamine (forward read: WTB2_1; reverse read: WTB2_2) We ran the raw .FQ files through FastQC in order to determine the quality of the reads and developed an optimal trimming strategy. After trimming and clearing the reads using Trimmomatic, we confirmed improved quality again with FastQC. We then created an index and aligned the reads using Bowtie2/2.5.3 and Samtools/1.20 software. HTSeq-Count was run on the resulting sorted, indexed read file to count the number of transcripts or reads per gene model. [Cont. - UNFINISHED]</p>
 
 <h3>Data Files:</h3>
 <p><b><i>C. albicans</i> sequenced RNA .FQ files were provided by the Rolfes Laboratory.</b></p>
@@ -43,7 +43,9 @@
 <p>Link to full alignment results: https://docs.google.com/spreadsheets/d/1fa-FXVMlCXOZkbHSx_mMg0OXLMy9BeBJg8uWrEMpKGo/edit?gid=0#gid=0</p>
 
 <p> 4. Counting of Reads Per Gene Model (HTseq)</p>
- 
+Conda software was used to install the compartmentalized suite of softwares to structure the environment for the HTSeq python program using the bioconda package “htseq.” The htseq-count command was run on the Google Cloud HPC Console (bash) using the following script to parse through the WTB2.str.bam file, match the reads with gene locations in the annotated C. albicans .gtf file, and count the number of transcripts or reads per gene model.
+<p>Link to HTSeq script: <a href=/htseq_count.SBATCH> here<a/>.</p>
+
 <p> 5. Differential Expression Analysis (DEseq2)</p>
  
 <p> 6. Gene Ontology Enrichment Analysis</p>
