@@ -95,7 +95,8 @@
 <p>Link to supplemented table of differentially expressed genes with function <a href=/Summary_Table_(signif_TH-vTH+).xls> here<a/>.</p>
 
 <p> 6. Gene Ontology Enrichment Analysis</p>
-
+<p>Link to GO enrichment analysis Panther summary table <a href=/GO_Enrichment_Analysis_Results.xls> here<a/>.</p>
+ 
 <h3>Interpretation of Workflow:</h3>
 
 <h3>Interpretation of Results:</h3>
