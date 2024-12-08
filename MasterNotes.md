@@ -92,6 +92,7 @@
 <p>Link to complete gene table <a href=/calb_TH-_v_TH+_allgenes.csv> here<a/>.</p>
 <p>Link to volcano plot of differentially expressed genes <a href=/R_volcano_plot_correct.pdf> here<a/>.</p>
 <p>Link to table of differentially expressed genes <a href=/signif_TH-vTH+.csv> here<a/>.</p>
+<p>Link to supplemented table of differentially expressed genes with function <a href=/Summary_Table_(signif_TH-vTH+).xls> here<a/>.</p>
 
 <p> 6. Gene Ontology Enrichment Analysis</p>
 
