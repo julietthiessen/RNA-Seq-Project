@@ -12,7 +12,7 @@
 <p>WTA2_1.fq.gz, WTA2_2.fq.gz – C. albicans cultured in Thi- environment; biological replicate A; forward and reverse reads</p>
 <p>WTB2_1.fq.gz, WTB2_2.fq.gz – C. albicans cultured in Thi- environment; biological replicate B; forward and reverse reads</p>
 <p>WTC2_1.fq.gz, WTC2_2.fq.gz – C. albicans cultured in Thi- environment; biological replicate C; forward and reverse reads</p>
-<p>The following analysis was performed on the forward / reverse pair files for the second biological replicate data obtained from a <i>C. albicans</i> population grown in the absence of thiamine (forward read: WTB2_1; reverse read: WTB2_2) We ran the raw .FQ files through FastQC in order to determine the quality of the reads and developed an optimal trimming strategy. After trimming and clearing the reads using Trimmomatic, we confirmed improved quality again with FastQC. We then created an index and aligned the reads using Bowtie2/2.5.3 and Samtools/1.20 software. HTSeq-Count was run on the resulting sorted, indexed read file to count the number of transcripts or reads per gene model. The “WTB2” htseqCount output file was then recombined with the remaining five files and the following analysis was performed on all six files together. [Cont. - UNFINISHED]</p>
+<p>The following analysis was performed on the forward / reverse pair files for the second biological replicate data obtained from a <i>C. albicans</i> population grown in the absence of thiamine (forward read: WTB2_1; reverse read: WTB2_2) We ran the raw .FQ files through FastQC in order to determine the quality of the reads and developed an optimal trimming strategy. After trimming and clearing the reads using Trimmomatic, we confirmed improved quality again with FastQC. We then created an index and aligned the reads using Bowtie2/2.5.3 and Samtools/1.20 software. HTSeq-Count was run on the resulting sorted, indexed read file to count the number of transcripts or reads per gene model. The “WTB2” htseqCount output file was then recombined with the remaining five files and the following analysis was performed on all six files together. In order to identify the differentially expressed genes in the counted files, we used an R-script to run DESeq2, produce a PCA plot, produce a volcano plot, and identify differentially expressed genes. We analyzed the biological function of the identified genes both manually, using the NCBI and Candida Genome databases, and quantitatively, by performing a Gene Ontology Enrichment Analysis on the Panther database website.</p>
 
 <h3>Data Files:</h3>
 <p><b><i>C. albicans</i> sequenced RNA .FQ files were provided by the Rolfes Laboratory.</b></p>
@@ -98,7 +98,5 @@
 
 <p> 6. Gene Ontology Enrichment Analysis</p>
 <p>Link to GO enrichment analysis Panther summary table <a href=/GO_Enrichment_Analysis_Results.xls> here<a/>.</p>
- 
-<h3>Interpretation of Workflow:</h3>
 
 <h3>Interpretation of Results:</h3>
