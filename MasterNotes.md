@@ -88,6 +88,10 @@
 <p>Alignment not unique: 0</p>
 
 <p> 5. Differential Expression Analysis (DEseq2)</p>
+<p>Link to PCA plot <a href=/TH-vTH+_pcaplot.png> here<a/>.</p>
+<p>Link to complete gene table <a href=/calb_TH-_v_TH+_allgenes.csv> here<a/>.</p>
+<p>Link to volcano plot of differentially expressed genes <a href=/R_volcano_plot_correct.pdf> here<a/>.</p>
+<p>Link to table of differentially expressed genes <a href=/signif_TH-vTH+.csv> here<a/>.</p>
 
 <p> 6. Gene Ontology Enrichment Analysis</p>
 
