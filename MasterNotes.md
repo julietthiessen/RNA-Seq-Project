@@ -59,6 +59,8 @@
 <p>Candida Genome database: http://www.candidagenome.org/</p>
  
 <p> 6. Gene Ontology Enrichment Analysis</p>
+<p>The Panther classification system website / database was used to perform a Gene Ontology Enrichment Analysis on the 13 differentially expressed genes identified using DESeq2 (above). NCBI GeneID #s for each of the genes were input, the organism <i>Candida albicans</i> was selected and a Statistical Overrepresentation test was run to identify overrepresented or enriched (biological process) GO terms for the set of differentially expressed genes. “GO biological process complete” was selected to identify terms relevant to the biological function of the genes. The <i>C. albicans</i> complete genome set was selected as a reference and a statistical Fisher test calculating a false discovery rate was performed. The resulting enriched terms were downloaded into an Excel file for analysis (see results).</p>
+<p>Panther website: http://www.pantherdb.org/</p>
  
 <h3>Results:</h3>
 <p> 1. Quality Analysis (FastQC)</p>
